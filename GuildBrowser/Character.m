@@ -29,7 +29,7 @@
         
         // find selected spec
         _selectedSpec = [self selectedSpecFromTalents:data[@"talents"]];
-        
+         
         _neckItem = [Item initWithData:data[@"items"][@"neck"]];
         _wristItem = [Item initWithData:data[@"items"][@"wrist"]];
         _waistItem = [Item initWithData:data[@"items"][@"waist"]];
