@@ -29,13 +29,12 @@
         
         // find selected spec
         _selectedSpec = [self selectedSpecFromTalents:data[@"talents"]];
-         
         _neckItem = [Item initWithData:data[@"items"][@"neck"]];
         _wristItem = [Item initWithData:data[@"items"][@"wrist"]];
         _waistItem = [Item initWithData:data[@"items"][@"waist"]];
         _handsItem = [Item initWithData:data[@"items"][@"hands"]];
         _shoulderItem = [Item initWithData:data[@"items"][@"shoulder"]];
-        _chestItem = [Item initWithData:data[@"items"][@"chest"]];
+        _chestItem = [Item initWithData:data[@"item"][@"chest"]];
         _fingerItem1 = [Item initWithData:data[@"items"][@"finger1"]];
         _fingerItem2 = [Item initWithData:data[@"items"][@"finger2"]];
         _shirtItem = [Item initWithData:data[@"items"][@"shirt"]];
