@@ -69,6 +69,9 @@
 		EFAD4B9716E73B84002740D4 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
 		EFAD4B9816E73B84002740D4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
 		EFAD4B9916E73B84002740D4 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		EFAD4B9D16E73C88002740D4 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = EFAD4B9B16E73C88002740D4 /* character.json */; };
+		EFAD4B9E16E73C88002740D4 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = EFAD4B9C16E73C88002740D4 /* guild.json */; };
+		EFAD4BA116E73CBA002740D4 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAD4BA016E73CBA002740D4 /* CharacterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +171,10 @@
 		EFAD4B8F16E73841002740D4 /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		EFAD4B9316E73A25002740D4 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
 		EFAD4B9416E73A25002740D4 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
+		EFAD4B9B16E73C88002740D4 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		EFAD4B9C16E73C88002740D4 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		EFAD4B9F16E73CBA002740D4 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
+		EFAD4BA016E73CBA002740D4 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +214,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				EFAD4B9A16E73C88002740D4 /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -394,6 +402,8 @@
 				EFAD4B9316E73A25002740D4 /* WowUtilsTests.h */,
 				EFAD4B9416E73A25002740D4 /* WowUtilsTests.m */,
 				EFAD4B8716E73841002740D4 /* Supporting Files */,
+				EFAD4B9F16E73CBA002740D4 /* CharacterTests.h */,
+				EFAD4BA016E73CBA002740D4 /* CharacterTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -406,6 +416,15 @@
 				EFAD4B8F16E73841002740D4 /* GuildBrowserLogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAD4B9A16E73C88002740D4 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD4B9B16E73C88002740D4 /* character.json */,
+				EFAD4B9C16E73C88002740D4 /* guild.json */,
+			);
+			path = testdata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,6 +555,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAD4B8B16E73841002740D4 /* InfoPlist.strings in Resources */,
+				EFAD4B9D16E73C88002740D4 /* character.json in Resources */,
+				EFAD4B9E16E73C88002740D4 /* guild.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +639,7 @@
 				EFAD4B9916E73B84002740D4 /* WoWUtils.m in Sources */,
 				EFAD4B9616E73B70002740D4 /* Character.m in Sources */,
 				EFAD4B9516E73A25002740D4 /* WowUtilsTests.m in Sources */,
+				EFAD4BA116E73CBA002740D4 /* CharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
