@@ -34,7 +34,7 @@
         _waistItem = [Item initWithData:data[@"items"][@"waist"]];
         _handsItem = [Item initWithData:data[@"items"][@"hands"]];
         _shoulderItem = [Item initWithData:data[@"items"][@"shoulder"]];
-        _chestItem = [Item initWithData:data[@"items"][@"chst"]];
+        _chestItem = [Item initWithData:data[@"items"][@"chest"]];
         _fingerItem1 = [Item initWithData:data[@"items"][@"finger1"]];
         _fingerItem2 = [Item initWithData:data[@"items"][@"finger2"]];
         _shirtItem = [Item initWithData:data[@"items"][@"shirt"]];
